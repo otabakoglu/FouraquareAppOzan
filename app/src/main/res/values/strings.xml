@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name" translatable="false">FoursquareApp</string>
+    <string name="ui_act_main_hint_place_type" translatable="false">Exp. Cafe, Bar</string>
+    <string name="ui_act_main_hint_area_city" translatable="false">Close to me</string>
+
+    <!-- Foursquare Api Keys -->
+    <string name="foursquare_client_id" translatable="false">TDSHPGRB121KFQC0QMCKVU2X4CQI1VBRDMCGMCGITTDFH0QW</string>
+    <string name="foursquare_client_secret" translatable="false">UIE4EXIDEJRVPRWCDUEO44Q2QFXFUFS2FOB4RZ4PFZV0S0BW</string>
+
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_act"
+    tools:context=".Activities.MainActivity">
+
+    <EditText
+        android:id="@+id/act_main_et_place_type"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_round_white"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:ems="10"
+        android:hint="@string/ui_act_main_hint_place_type"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="cafe"
+        app:layout_constraintEnd_toStartOf="@+id/act_main_guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/act_main_guideline_left"
+        app:layout_constraintTop_toTopOf="@+id/act_main_guideline_top" />
+
+    <EditText
+        android:id="@+id/act_main_et_area_or_city"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_round_white"
+        android:ems="10"
+        android:hint="@string/ui_act_main_hint_area_city"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="istanbul"
+        app:layout_constraintEnd_toStartOf="@+id/act_main_guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/act_main_guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/act_main_et_place_type" />
+
+    <Button
+        android:id="@+id/act_main_btn_search"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_round_indigo"
+        android:drawableLeft="@drawable/ic_search"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Search"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/act_main_guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/act_main_guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/act_main_et_area_or_city" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/act_main_guideline_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.069" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/act_main_guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/act_main_guideline_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+</android.support.constraint.ConstraintLayout>

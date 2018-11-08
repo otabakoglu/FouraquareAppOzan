@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#FFE0E0E0</color>
+    <color name="colorAccent">#ABABAB</color>
+
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="indigo">#4932C6</color>
+    <color name="indigo_light">#634be6</color>
+
+    <!-- Main Activity -->
+    <color name="bg_main_act">#E0E0E0</color>
+
+
+    <!-- Plages Activity-->
+
+
+    <!-- Place Item -->
+    <color name="item_place_title">#462EC5</color>
+    <color name="item_place_detail">#000000</color>
+    <color name="item_place_country">#B8B8B8</color>
+
+
+</resources>
